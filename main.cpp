@@ -1,12 +1,20 @@
 #include <stdio.h>
+void Usmiech(void);
 
 int main(void)
 {
-	int liczba, podwojona, kwadratowa;
-
-	liczba = 10;
-	podwojona = liczba * 2;
-	kwadratowa = liczba * liczba;
-	printf("Podwojona wartosc liczby %d wynosi %d, a kwadrat to %d\n", liczba, podwojona, kwadratowa);
+	Usmiech();
+	Usmiech();
+	Usmiech();
+	printf("\n");
+	Usmiech();
+	Usmiech();
+	printf("\n");
+	Usmiech();
 	return 0;
+}
+
+void Usmiech(void)
+{
+	printf("Usmiech!");
 }
