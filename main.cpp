@@ -1,25 +1,12 @@
 #include <stdio.h>
-void br(void);
-void ic(void);
 
 int main(void)
 {
-	br();
-	printf(", ");
-	ic();
-	printf("\n");
-	ic();
-	printf("\n");
-	br();
+	int liczba, podwojona, kwadratowa;
+
+	liczba = 10;
+	podwojona = liczba * 2;
+	kwadratowa = liczba * liczba;
+	printf("Podwojona wartosc liczby %d wynosi %d, a kwadrat to %d\n", liczba, podwojona, kwadratowa);
 	return 0;
-}
-
-void br(void)
-{
-	printf("Brazylia, Rosja");
-}
-
-void ic(void)
-{
-	printf("Indie, Chiny");
 }
