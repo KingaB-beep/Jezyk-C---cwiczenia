@@ -1,20 +1,23 @@
 #include <stdio.h>
-void Usmiech(void);
+void raz_trzy(void);
+void dwa(void);
 
 int main(void)
 {
-	Usmiech();
-	Usmiech();
-	Usmiech();
-	printf("\n");
-	Usmiech();
-	Usmiech();
-	printf("\n");
-	Usmiech();
+	printf("zaczynamy:\n");
+	raz_trzy();
+	printf("koniec!");
 	return 0;
 }
 
-void Usmiech(void)
+void raz_trzy(void)
 {
-	printf("Usmiech!");
+	printf("raz\n");
+	dwa();
+	printf("trzy\n");
+}
+
+void dwa(void)
+{
+	printf("dwa\n");
 }
