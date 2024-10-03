@@ -1,21 +1,25 @@
 #include <stdio.h>
-void PanJan(void);
-void OstatniWiersz(void);
+void br(void);
+void ic(void);
 
 int main(void)
 {
-	PanJan();
-	PanJan();
-	OstatniWiersz();
+	br();
+	printf(", ");
+	ic();
+	printf("\n");
+	ic();
+	printf("\n");
+	br();
 	return 0;
 }
 
-void PanJan(void)
+void br(void)
 {
-	printf("Panie Janie!\n");
+	printf("Brazylia, Rosja");
 }
 
-void OstatniWiersz(void)
+void ic(void)
 {
-	printf("Rano wstan!");
+	printf("Indie, Chiny");
 }
