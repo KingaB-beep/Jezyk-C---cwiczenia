@@ -1,8 +1,11 @@
 #include <stdio.h>
 int main(void)
 {
-	printf("Imie i nazwisko: Kinga Berdzik\n");
-	printf("Adres: ul. Kwiatowa 10/10\n01-001 Warszawa, Polska");
+	int WiekwLatach, WiekwDniach;
+
+	WiekwLatach = 25;
+	WiekwDniach = WiekwLatach * 365;
+	printf("%d lat to %d dni\n", WiekwLatach, WiekwDniach);
 	return 0;
 	
 
